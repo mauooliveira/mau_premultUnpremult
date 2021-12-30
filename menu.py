@@ -6,7 +6,7 @@ mauMenu = toolbar.addMenu('Mau', icon = 'mo.png')
 
 
 #===================================================================================================================
-# MAU SET BRACKETED PREMULT UNPREMULT
+# MAU SET PREMULT UNPREMULT
 #===================================================================================================================
-import mau_bracktedUnprePre
-mauMenu.addCommand('comp/bracktedUnprePre','mau_bracktedUnprePre.bracktedUnprePre()', 'alt+shift+a')
+import mau_premultUnpremult
+mauMenu.addCommand('comp/premultUnpremult','mau_premultUnpremult.premultUnpremult()', 'alt+a')

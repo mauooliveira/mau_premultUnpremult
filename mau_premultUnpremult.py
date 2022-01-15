@@ -7,7 +7,6 @@
 import nuke
 
 def premultUnpremult():
-
 	for i in nuke.selectedNodes():
 	    try:
 	        if i.knob("unpremult").value() == "alpha":
